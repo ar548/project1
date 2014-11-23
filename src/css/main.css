@@ -93,7 +93,33 @@ textarea {
   width:960px;
   margin-left:auto;
   margin-right:auto;
-  background-color:#EEEEEE
+  background-color:#FFFFFF
+}
+
+#h1 {
+  font-size:220%;
+}
+
+#h2 {
+  font-size:200%;
+  text-align: center;
+  font-family:sans-serif;
+}
+
+#h3 {
+  font-size:180%;
+}
+
+#h4 {
+  font-size:160%;
+}
+
+#h5 {
+  font-size:140%;
+}
+
+#h6 {
+  font-size:120%;
 }
 
 #header {
@@ -146,6 +172,14 @@ textarea {
   margin-bottom:0px; 
 }
 
+#content table{
+  margin-left:auto;
+  margin-right:auto;
+}
+#content table tr td p{
+  text-align:left;
+  font-size:80%;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
