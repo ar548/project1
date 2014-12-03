@@ -176,13 +176,15 @@ textarea {
   width:640px;
   margin-left:auto;
   margin-right:auto;
+  text-align:center;
+  
 }
 
-#fb-like {
+.fb-like {
   width:450px;
-  margin-left:auto;
+  margin-left:95px;
   margin-right:auto;
-  background-color:#475D8E;
+  margin-top:21px;
   text-align:center;
 
 }
@@ -195,6 +197,26 @@ textarea {
 #content table tr td p{
   text-align:left;
   font-size:80%;
+  line-height:22px;
+}
+
+.tableImage {
+  width:980px;
+  height:485px;
+}
+
+#heating {
+  background-color:#EEF1F5;
+  text-align:center;
+}
+
+#heating img{
+  margin-bottom: 24px;
+}
+
+#cooling img{
+  margin-top:24px;
+  margin-bottom: 24px;
 }
 /* ==========================================================================
    Helper classes
