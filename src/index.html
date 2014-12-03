@@ -49,6 +49,15 @@
 		<p style="color:#3F8252; ">
 		    <b>SERVING CLIFTON AND ALL OF NORTHERN NEW JERSEY</b>
 		</p>
+		<div id="video">
+			<iframe width="640" height="390" src="//www.youtube.com/embed/tntOCGkgt98" frameborder="0"
+			allowfullscreen></iframe>
+		</div>
+		
+		<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>	
+
+
+
 		<!-- Add the video and FB like button here--!>
 		<table style="width:960;">
 		    <tr>
@@ -98,7 +107,16 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
+        <div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	
+	<script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
