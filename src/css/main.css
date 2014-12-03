@@ -133,6 +133,10 @@ textarea {
   margin-bottom:36px;
 }
 
+.fb-like-mini {
+  float:right;
+}
+
 #menu {
   clear:both;
   text-align:center;
@@ -158,7 +162,7 @@ textarea {
 }
 
 #content {
-
+  width:960px;
 }
 
 #content p{
@@ -200,24 +204,55 @@ textarea {
   line-height:22px;
 }
 
+#tableImg {
+  text-align:center;
+}
+
 .tableImage {
   width:980px;
   height:485px;
 }
 
 #heating {
+  margin-top:12px;
+  padding-top:16px;
   background-color:#EEF1F5;
+  text-align:center;
+  width:100%;
+}
+
+#heating p{
+  margin-left:auto;
+  margin-right:auto;
   text-align:center;
 }
 
 #heating img{
-  margin-bottom: 24px;
+  margin-bottom: 32px;
+}
+
+#cooling {
+  width:100%;
+  text-align:center
+}
+
+#cooling p{
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
 }
 
 #cooling img{
   margin-top:24px;
   margin-bottom: 24px;
 }
+
+#final {
+  text-align:center;
+  width:100%;
+  background-color:#EEF1F5;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
